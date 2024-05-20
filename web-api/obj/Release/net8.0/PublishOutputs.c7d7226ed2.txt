@@ -1,0 +1,11 @@
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\exercicios-rest-api.exe
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\exercicios-rest-api.dll
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\exercicios-rest-api.deps.json
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\exercicios-rest-api.runtimeconfig.json
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\exercicios-rest-api.pdb
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projetos\exercicios-rest-api\web-api\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

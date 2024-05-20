@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "G+q1R/khndJN9bm7Vpts1VIluUyGtY54kQGficCF9kQl2811QZAzSAtLXdNlNvzXXJGYlREp/n2CxP6w1zhQIg==",
+  "success": true,
+  "projectFilePath": "D:\\Projetos\\exercicios-rest-api\\web-api\\exercicios-rest-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ingrid\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Ingrid\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Ingrid\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Ingrid\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Ingrid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Ingrid\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
