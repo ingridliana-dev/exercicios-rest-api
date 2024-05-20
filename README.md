@@ -1,11 +1,5 @@
 # Exercícios Rest Api
  
-Sequência de exercícios desenvolvidos para praticar o uso e criação de Web API.  
-As telas do exercícios foram criadas usando **HTML** e **CSS**.  
-Para fazer o envio dos dados dos formulários para a API foi usado **Javascript**.  
-A Web API foi desenvolvida usando **.net 8**, ultima versão disponível.  
-Para a hospedagem da API foi utilizado o **Microsoft Azure**.
-
 ## Tecnologias Utilizadas
 
 ### Front-end
@@ -15,8 +9,16 @@ Para a hospedagem da API foi utilizado o **Microsoft Azure**.
 
 ### Back-end
 - C#
-- .net 8
+- ASP.NET Core Web API
 - Microsoft Azure
+
+### Detalhes do projeto: 
+
+As telas do exercícios foram criadas usando **HTML** e **CSS**.  
+Para fazer o envio dos dados dos formulários para a API foi usado **Javascript**.   
+A Web API foi desenvolvida usando **ASP.NET Core Web API** e a **linguagem C#**.  
+Para a hospedagem da API foi utilizado o **Microsoft Azure**.  
+Para a hospedagem do site foi utilizado o **github pages**.
 
 ## Confira o resultado no link abaixo
 
