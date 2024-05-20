@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Soma</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Soma</h1>
+
+            <p>Vamos fazer uma soma?</p>
+
+            <label for="txt1">Digite dois valores:</label>
+            <input type="number" id="txt1">
+            <input type="number" id="txt2">
+
+            <button onclick="botao_click()">Somar</button>
+            <br>
+            <a href="../index.html">Voltar</a>
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+            var n1 = document.getElementById("txt1").value;
+            var n2 = document.getElementById("txt2").value;
+            n1 = parseInt(n1)
+            n2 = parseInt(n2)
+
+            var route = "soma";
+            var param = "?";
+            param += "n1=" + n1;
+            param += "&n2=" + n2;
+
+            requestGET(route, param);
+
+        }
+
+    </script>
+
+</body>
+<script src="httpRequest.js"></script>
+
+</html>

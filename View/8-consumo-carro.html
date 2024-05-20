@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Consumo</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Consumo</h1>
+
+            <p>Quer saber o consumo do seu carro?</p>
+
+            <label for="txt1">Me fala, quantos KM você andou?</label>
+            <input type="text" id="txt1">
+            <label for="txt1">E quantos litros de combustível você gastou?</label>
+            <input type="text" id="txt2">
+
+            <button onclick="botao_click()">Calcular</button>
+            <br>
+            <a href="../index.html">Voltar</a>
+        </div>
+    </div>
+
+    <script>
+        // coments
+
+        function botao_click() {
+            // Comentário fica assim
+            var km = parseFloat(document.getElementById('txt1').value);
+            var litros = parseFloat(document.getElementById('txt2').value);
+
+            var route = "consumo";
+            var param = "?";
+            param += "km=" + km;
+            param += "&litros=" + litros;
+
+            requestGET(route, param);
+
+
+        }
+
+    </script>
+
+</body>
+<script src="httpRequest.js"></script>
+
+</html>

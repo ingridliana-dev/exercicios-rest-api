@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>One piece is real!</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>One Piece is real!</h1>
+
+            <p>Qual seu nome?</p>
+
+            <label for="txt1">Responda:</label>
+            <input type="text" id="txt1">
+
+            <button onclick="botao_click()">Botão</button>
+            <br>
+            <a href="../index.html">Voltar</a>
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+            var route = "onePieceNome";
+            var param = "?";
+
+            var nome = document.getElementById("txt1").value;
+            param += "nome=" + nome;
+
+            requestGET(route, param);
+
+        }
+
+    </script>
+
+</body>
+<script src="httpRequest.js"></script>
+
+</html>

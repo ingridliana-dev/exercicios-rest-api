@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Terreno</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Terreno</h1>
+
+            <p>Vamos calcular o preço de um terreno?</p>
+
+            <label for="txt1">Digite a Largura do Terreno:</label>
+            <input type="number" id="txtLarg">
+            <label for="txt1">Digite o comprimento do Terreno:</label>
+            <input type="number" id="txtComp">
+            <label for="txt1">Digite preço do metro quadrado:</label>
+            <input type="number" id="txtPreco">
+
+            <button onclick="botao_click()">Calcular</button>
+            <br>
+            <a href="../index.html">Voltar</a>
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+            var larg = document.getElementById("txtLarg").value;
+            var comp = document.getElementById("txtComp").value;
+            var preco = document.getElementById("txtPreco").value;
+
+            larg = parseFloat(larg);
+            comp = parseFloat(comp);
+            preco = parseFloat(preco);
+
+            var route = "terreno";
+            var param = "?";
+            param += "larg=" + larg;
+            param += "&comp=" + comp;
+            param += "&preco=" + preco;
+
+            requestGET(route, param);
+
+
+        }
+
+    </script>
+
+</body>
+<script src="httpRequest.js"></script>
+
+</html>

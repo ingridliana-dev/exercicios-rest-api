@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Salário</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Salário</h1>
+
+            <p>Calcule seu salário aqui.</p>
+
+            <label for="txt1">Digite seu nome:</label>
+            <input type="text" id="txt1">
+            <label for="txt1">Digite o valor da sua hora:</label>
+            <input type="text" id="txt2">
+            <label for="txt1">Digite quantas horas trabalhou no mês:</label>
+            <input type="text" id="txt3">
+
+            <button onclick="botao_click()">Calcular</button>
+            <br>
+            <a href="../index.html">Voltar</a>
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+            var nome = document.getElementById('txt1').value;
+            var valorHora = parseFloat(document.getElementById('txt2').value);
+            var qtdHoras = parseFloat(document.getElementById('txt3').value);
+
+            var route = "salario";
+            var param = "?";
+            param += "nome=" + nome;
+            param += "&valorHora=" + valorHora;
+            param += "&qtdHoras=" + qtdHoras;
+
+            requestGET(route, param);
+
+
+        }
+
+    </script>
+
+</body>
+<script src="httpRequest.js"></script>
+
+</html>

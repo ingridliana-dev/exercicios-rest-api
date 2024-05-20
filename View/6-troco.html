@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Troco</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Troco</h1>
+
+            <p>Posso calcular o troco pra você!</p>
+
+            <label for="txt1">Preço Unitário do produto:</label>
+            <input type="number" id="txt1">
+            <label for="txt2">Quantidade de unidades:</label>
+            <input type="number" id="txt2">
+            <label for="txt3">Dinheiro dado pelo cliente:</label>
+            <input type="number" id="txt3">
+
+            <button onclick="botao_click()">Calcular</button>
+            <br>
+            <a href="../index.html">Voltar</a>
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+            var preco = parseFloat(document.getElementById("txt1").value);
+            var qtd = parseInt(document.getElementById("txt2").value);
+            var dinheiro = parseFloat(document.getElementById("txt3").value);
+
+            var route = "troco";
+            var param = "?";
+            param += "preco=" + preco;
+            param += "&qtd=" + qtd;
+            param += "&dinheiro=" + dinheiro;
+
+            requestGET(route, param);
+
+        }
+
+    </script>
+
+</body>
+<script src="httpRequest.js"></script>
+
+</html>
