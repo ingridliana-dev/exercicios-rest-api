@@ -46,7 +46,7 @@ if (app.Environment.IsDevelopment()) {
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 // Habilita a política CORS
 // Esse comando deve ser inserido antes do app.Authorization no arquivo program.cs

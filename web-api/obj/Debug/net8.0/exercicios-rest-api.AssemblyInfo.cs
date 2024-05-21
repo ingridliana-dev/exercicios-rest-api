@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("exercicios-rest-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d983782d5c124ff8f2e359030823ed2c6215ebbc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f86fe81681b6160cf998d8ec91d222ae4564953")]
 [assembly: System.Reflection.AssemblyProductAttribute("exercicios-rest-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("exercicios-rest-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

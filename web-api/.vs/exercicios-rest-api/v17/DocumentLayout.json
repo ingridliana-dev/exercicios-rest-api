@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Projetos\\exercicios-rest-api\\web-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79B0E62B-B130-4E7E-817B-BE7C174095B4}|exercicios-rest-api.csproj|d:\\projetos\\exercicios-rest-api\\web-api\\controllers\\atvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79B0E62B-B130-4E7E-817B-BE7C174095B4}|exercicios-rest-api.csproj|solutionrelative:controllers\\atvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{79B0E62B-B130-4E7E-817B-BE7C174095B4}|exercicios-rest-api.csproj|d:\\projetos\\exercicios-rest-api\\web-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79B0E62B-B130-4E7E-817B-BE7C174095B4}|exercicios-rest-api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B0E62B-B130-4E7E-817B-BE7C174095B4}|exercicios-rest-api.csproj|d:\\projetos\\exercicios-rest-api\\web-api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{79B0E62B-B130-4E7E-817B-BE7C174095B4}|exercicios-rest-api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79B0E62B-B130-4E7E-817B-BE7C174095B4}|exercicios-rest-api.csproj|d:\\projetos\\exercicios-rest-api\\web-api\\controllers\\atvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79B0E62B-B130-4E7E-817B-BE7C174095B4}|exercicios-rest-api.csproj|solutionrelative:controllers\\atvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projetos\\exercicios-rest-api\\web-api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projetos\\exercicios-rest-api\\web-api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-21T02:04:09.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projetos\\exercicios-rest-api\\web-api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projetos\\exercicios-rest-api\\web-api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAARAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADAAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T17:44:05.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "atvController.cs",
               "DocumentMoniker": "D:\\Projetos\\exercicios-rest-api\\web-api\\Controllers\\atvController.cs",
               "RelativeDocumentMoniker": "Controllers\\atvController.cs",
               "ToolTip": "D:\\Projetos\\exercicios-rest-api\\web-api\\Controllers\\atvController.cs",
               "RelativeToolTip": "Controllers\\atvController.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAA7wD4AAAAsAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwD4AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-19T16:07:59.935Z",
               "EditorCaption": ""
